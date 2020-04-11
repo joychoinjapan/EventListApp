@@ -9,7 +9,7 @@
         <BaseIcon name="map"><h2>Location</h2></BaseIcon>
         <address>{{event.location}}</address>
         <h2>Event details</h2>
-        <p>{event.description}}</p>
+        <p>{{event.description}}</p>
         <h2>Attendees
             <span class="badge -fill-gradient">{{ event.attendees?event.attendees.length:0}}</span>
         </h2>
